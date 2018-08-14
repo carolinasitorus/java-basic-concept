@@ -1,4 +1,4 @@
-package tutorial;
+package Tutorial.BasicSintax;
 
 class EnumDataType {
     enum ExampleSize { SMALL, MEDIUM, LARGE};
