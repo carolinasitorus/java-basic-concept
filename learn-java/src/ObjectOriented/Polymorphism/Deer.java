@@ -1,4 +1,17 @@
 package ObjectOriented.Polymorphism;
 
-public class Deer {
+interface Vegetarian{
 }
+
+class Animal{
+}
+
+public class Deer extends Animal implements Vegetarian {
+}
+/*
+Polymorph:
+Deer is a Vegetarian
+Deer is an animal
+Dear is a Dear
+Dear is an object
+ */

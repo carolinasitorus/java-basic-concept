@@ -1,4 +1,8 @@
 package ObjectOriented.Abstraction;
 
-public class Salary {
+public class Salary extends Employee {
+    @Override
+    public double computePay() {
+        return 0;
+    }
 }

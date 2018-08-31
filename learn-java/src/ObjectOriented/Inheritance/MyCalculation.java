@@ -18,6 +18,9 @@ public class MyCalculation extends Calculation {
     public static void main(String args[]){
         int a = 10;
         int b = 20;
-        
+        MyCalculation myCal = new MyCalculation();
+        myCal.multiplication(a,b);
+        myCal.addition(a,b);
+        myCal.substarction(a,b);
     }
 }
